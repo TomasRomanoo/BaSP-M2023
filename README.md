@@ -7,6 +7,7 @@ Luciano Stradiot, Tomas Romano
 
 ## Week 02
 I made the landing desktop layout in html
+I made the mistake of committing without BaSP-W0X-2023 commit massage
 ## Authors
 Tomas Romano
 
