@@ -1,0 +1,16 @@
+    *{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        color: #373867;
+    }
+    header{
+        height: 98px;
+        background-color: #373867;
+    }
+    header img {
+        width: 194px;
+        height: 41px;
+        margin-left: 29px;
+        margin-top: 28px;
+    }
