@@ -6,11 +6,14 @@ We created Userflow of Trainer
 Luciano Stradiot, Tomas Romano
 
 ## Week 02
-I made the landing desktop layout in html
-I made the mistake of committing without BaSP-W0X-2023 commit massage
+I made the landing desktop layout in html followin the Userflow created by my team.
 ## Authors
 Tomas Romano
 
 ## Week 03
+I styled the html page using css. I followed the Userflow reference. 
+## Authors
+Tomas Romano
+
 
 ## Week 04
