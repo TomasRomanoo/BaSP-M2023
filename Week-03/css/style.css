@@ -91,7 +91,7 @@
         color: #FFFFFF;
         font-stretch: 100;
         text-decoration-line: underline ;
-        border-bottom: 3px solid #FFFFFF;
+        text-underline-offset: 10px;
     }
     aside .information p{
         display: inline-block;
@@ -160,9 +160,9 @@
     }
     main .section-feactures{
         padding-top: 50px;
-        /* text-align: center; */
+        margin-bottom: 65px;
     }
-    main .section-feactures h2{
+    h2{
         font-style: normal;
         font-weight: 700;
         font-size: 30px;
@@ -179,22 +179,9 @@
         margin-right: 50px;
         padding-bottom: 30px;
     }
-    .right-content{
-        margin-left:50px;
-    }
-    
     main .section-feactures article p{
         margin-top: 34px;
         width:337px;
-    }
-    main .section-feactures article h2{
-        font-style: normal;
-        font-weight: 876;
-        font-size: 24px;
-        line-height: 28px;
-        text-transform: capitalize;
-        font-feature-settings: 'tnum' on, 'lnum' on;
-        font-stretch: 100;
     }
     main .section-feactures article img{
         position: absolute;
@@ -202,5 +189,27 @@
         margin-top: -10px;
         width: 43px;
         height: 38px;
+    }
+    main .section-about article{
+        background-color: aquamarine;
+    }
+    main .section-about article img{
+        display: inline-block;
+        width: 45%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    main .section-about article p{
+        display: inline-block;
+        width: 45%;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: right;
+        align-items: center;
+        vertical-align: top;
     }
 
