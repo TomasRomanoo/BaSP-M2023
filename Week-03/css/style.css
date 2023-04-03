@@ -11,8 +11,9 @@
         width: 1512px;
     }
     header{
-        position:sticky;
+        position:fixed;
         height: 98px;
+        width: 100%;
         top: 0px;
         left:0px;
         background-color: #373867;
@@ -27,7 +28,7 @@
         margin-top: 28px;
     }
     aside{
-        position: sticky;
+        position: fixed;
         width: 313px;
         height: 884px;
         top: 98px;
@@ -118,10 +119,8 @@
 
     
     main{
-        /* position: absolute; */
         margin-left: 315px;
-        margin-top: 0px;
-        /* width: 1200px; */
+        margin-top: 163px;
     }
 
     main .section-welcome-txt{
@@ -183,27 +182,35 @@
         margin-top: 34px;
         width:337px;
     }
-    main .section-feactures article img{
+
+    main .section-feactures article img {
         position: absolute;
         margin-left: -60px;
         margin-top: -10px;
         width: 43px;
         height: 38px;
     }
-    main .section-about article{
-        background-color: aquamarine;
+
+    main .section-about article {
+        padding-left: 40px;
+        padding-right: 20px;
+        margin-bottom: 60px;
     }
-    main .section-about article img{
+
+    main .section-about article img {
         display: inline-block;
-        width: 45%;
+        width: 42%;
         margin-left: 20px;
         margin-right: 20px;
     }
-    main .section-about article p{
+
+    main .section-about article p {
         display: inline-block;
-        width: 45%;
+        width: 48%;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 45px;
+        margin-bottom: 50px;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -212,4 +219,10 @@
         align-items: center;
         vertical-align: top;
     }
+
+    main .section-about article p:nth-child(1) {
+        text-align: left;
+    }
+
+
 
