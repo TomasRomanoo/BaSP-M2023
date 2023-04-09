@@ -1,0 +1,84 @@
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section-welcome {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#h2-welcome {
+    display: none;
+}
+
+.section-welcome-txt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.section-welcome-img img {
+    width: 100%;
+}
+
+.section-feactures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.section-feactures p {
+    text-align: start;
+}
+
+.img-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.img-title img {
+    height: 30px;
+    margin-left: 10%;
+    margin-right:5% ;
+}
+
+.section-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section-about p {
+    width: 150px; 
+    /*establece el ancho máximo*/
+    overflow: hidden;
+     /* oculta el texto que sobra */
+    text-overflow: ellipsis;
+     /* agrega "..." al final */
+    white-space: nowrap;
+
+    /*escribir texto para una version y luego para otra*/
+}
+
+
+.section-about img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px){}
+
+@media only screen and (min-width: 1025px){}
