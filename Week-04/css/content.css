@@ -36,6 +36,11 @@ main{
     text-align: center;
     margin-top: 20px;
 }
+
+.section-feactures h2{
+margin-bottom: -10px;
+}
+
 .section-feactures p {
     text-align: start;
 }
@@ -47,6 +52,7 @@ main{
     align-items: center;
     margin-top: 30px;
 }
+
 .img-title img {
     height: 30px;
     margin-left: 10%;
@@ -61,23 +67,80 @@ main{
     margin-top: 40px;
 }
 
-.section-about p {
-    width: 150px; 
-    /*establece el ancho máximo*/
-    overflow: hidden;
-     /* oculta el texto que sobra */
-    text-overflow: ellipsis;
-     /* agrega "..." al final */
-    white-space: nowrap;
-
-    /*escribir texto para una version y luego para otra*/
+.txt-desk{
+    display: none;
 }
 
+.section-about p{
+    margin-bottom: 15px;
+}
+
+.section-about .first-section-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-about .second-section-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
 
 .section-about img {
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.section-contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section-contact h2{
+text-align: center;
+}
+
+.part-form-contact{
+    margin-bottom: 10px;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.btn-form-contact{
+    display: none;
+}
+
+.section-activities{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.section-activities img{
     width: 100%;
 }
+
+.list-section-activities li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.section-memberships{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
 
 @media only screen and (min-width: 601px){}
 

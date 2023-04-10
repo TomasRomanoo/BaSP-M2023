@@ -132,16 +132,32 @@
                     About Mega Rocket
                 </h2>
                     <article>
-                        <img src="/assets/imgs/section/image-about-first.png" alt="">
-                            <p>
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                            </p>
+                        <div class="first-section-about">
+                            <img src="/assets/imgs/section/image-about-first.png" alt="">
+                                <div>
+                                    <p class="txt-desk">
+                                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                                    </p>
+                                    <p class="txt-mobile">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s (...)
+                                    </p>
+                                    <button class="txt-mobile">Learn More</button>
+                                </div>
+                        </div>
                     </article>
                     <article>
-                        <p>
-                            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                        </p>
+                        <div class="second-section-about">
+                            <div>
+                                <p class="txt-desk">
+                                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                                </p>
+                                <p class="txt-mobile">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s (...)
+                                </p>
+                                <button class="txt-mobile">Learn More</button>
+                            </div>
                             <img src="/assets/imgs/section/image-about-second.png" alt="">
+                        </div>
                     </article>
             </section>
             <section class="section-contact">
@@ -149,31 +165,33 @@
                     Get in touch
                 </h2>
                     <form action="">
-                        <div>
-                            <label for="first-name">First name</label>
-                            <input type="text" id="first-name" placeholder="Enter name">
-                            <label for="last-name">Last name</label>
-                            <input type="text" id="last-name" placeholder="Enter last name">
-                            <label for="email">Email address</label>
-                            <input type="text" id="email" placeholder="Enter address">
-                                <button type="submit">Submit</button>
+                        <div class="form-contact">
+                            <label class="part-form-contact" for="first-name">First name</label>
+                            <input class="part-form-contact" type="text" id="first-name" placeholder="Enter name">
+                            <label class="part-form-contact" for="last-name">Last name</label>
+                            <input class="part-form-contact" type="text" id="last-name" placeholder="Enter last name">
+                            <label class="part-form-contact" for="email">Email address</label>
+                            <input class="part-form-contact" type="text" id="email" placeholder="Enter address">
+                                <button type="submit" class="btn-form-contact">Submit</button>
                         </div>
-                        <div>
-                            <label for="contact">Contact reason</label>
-                                <select name="" id="contact" >
+                        <div class="form-contact">
+                            <label class="part-form-contact" for="contact">Contact reason</label>
+                                <select class="part-form-contact" name="" id="contact" >
                                     <option value="" disabled selected>Choose contact reason</option>
                                     <option value="option-1">option 1</option>
                                     <option value="option-2">option 2</option>
                                 </select>
-                            <label for="message">Message</label>
-                            <input type="text" id="message" placeholder="Enter your messege">
+                            <label class="part-form-contact" for="message">Message</label>
+                            <input class="part-form-contact" type="text" id="message" placeholder="Enter your messege">
                         </div>
+                        <button type="submit" class="btn-form-contact-mobil">Send</button>
                     </form>
             </section>
             <section class="section-activities">
                 <h2>
                     Gym activities
                 </h2>
+                <div class="list-section-activities">
                     <ul>
                         <li>Crossfit</li>
                         <li>Spinning</li>
@@ -181,6 +199,7 @@
                         <li>Fitness</li>
                         <li>Boxing</li>
                     </ul>
+                </div>
                 <img src="/assets/imgs/section/image-activities.png" alt="">
             </section>
             <section class="section-memberships">
@@ -222,26 +241,26 @@
             </section>
         </main>
         <footer>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/icons/footer/icon-linkedIn.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/icons/footer/icon-facebook.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/icons/footer/icon-instagram.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <p>
-                    Copyright © 2022 Radium Rocket. All rights reserved.
-                </p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="/assets/icons/footer/icon-linkedIn.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/assets/icons/footer/icon-facebook.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/assets/icons/footer/icon-instagram.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Copyright © 2022 Radium Rocket. All rights reserved.
+            </p>
         </footer>
     </body>
 </html>
