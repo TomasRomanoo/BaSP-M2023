@@ -16,7 +16,10 @@ header {
     height: 40%;
 }
 
+@media only screen and (min-width: 1025px){
+    
+    #sandwich-icon{
+        display: none;
+    }
 
-@media only screen and (min-width: 601px){}
-
-@media only screen and (min-width: 1025px){}
+}
