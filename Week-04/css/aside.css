@@ -4,7 +4,54 @@ display: none;
 
 @media only screen and (min-width: 1025px){
     aside{
-            display:block
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        height: 100%;
+        width: 300px;
+        margin-top: 70px;
+        margin-left: 0px;
         }
 
+    nav {
+        text-align: center;
+        margin: 20px;
+        margin-left: 40px;
+    }
+        
+    nav ul li {
+        margin-top: 15px;
+        padding: 10px;
+        border: 1px solid ;
+        border-radius: 5px;
+        background-color: white;
+        list-style-type: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .information{
+        padding-left: 40px;
+        margin-bottom: 100px;
+    }
+
+    .information h4 {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .information ul li {
+        margin-top: 20px;
+    }
+    .information img  {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
 }
