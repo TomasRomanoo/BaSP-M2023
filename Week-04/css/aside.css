@@ -43,15 +43,17 @@ display: none;
         text-align: center;
         font-weight: bold;
         color: white;
-        text-decoration: underline;
+        text-decoration: 5px underline;
+        text-decoration-color: white;
+        margin-bottom: 30px;
     }
 
     .information ul li {
         margin-top: 20px;
     }
     .information img  {
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
         margin-right: 10px;
     }
 }

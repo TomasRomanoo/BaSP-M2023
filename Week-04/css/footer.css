@@ -16,5 +16,12 @@ footer li{
 @media only screen and (min-width: 601px){
     footer{
         flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    footer{
+        margin-left: 300px;
     }
 }

@@ -1,7 +1,6 @@
 main{
     margin-left: 5%;
     margin-right: 5%;
-    z-index: 500;
 }
 .section-welcome {
     display: flex;
@@ -118,6 +117,56 @@ text-align: center;
 .btn-form-contact{
     display: none;
 }
+.btn-form-contact-mobil{
+    align-items: end;
+}
+.section-contact form label {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+}
+.section-contact form input {
+    display: block;
+    height: 37px;
+    width: 100%;
+    padding-left: 7px;
+    border: 1px solid #373867;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.5;
+}
+.section-contact form #contact {
+    width: 100%;
+    height: 36px;
+    padding-left: 7px;
+    border: 1px solid #373867;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.5;
+}
+.section-contact form button {
+    align-items: center;
+    margin-top: 22px;
+    padding: 14px 36px;
+    width: 123px;
+    height: 47px;
+    background-color: #AACE9B;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #373867;
+    border: none;
+}
 
 .section-activities{
     display: flex;
@@ -133,6 +182,15 @@ text-align: center;
 .list-section-activities li{
     margin-bottom: 10px;
     list-style-type: none;
+}
+
+.section-activities ul {
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-stretch: 100;
+    vertical-align:top;
 }
 
 .section-memberships{
@@ -214,6 +272,12 @@ text-align: center;
         display: flex;
         flex-direction: column;
     }
+    .btn-form-contact-mobil{
+        display: none;
+    }
+    .btn-form-contact{
+        display: block;
+    }
 
     .section-activities-conteiner {
         display: flex;
@@ -227,6 +291,10 @@ text-align: center;
         margin-left: 10%;
     }
 
+    .section-activities ul li{
+        list-style-type:initial;
+    }
+
     .section-activities img{
         width: 60%;
     }
@@ -235,17 +303,20 @@ text-align: center;
         display: flex;
         flex-direction: column;
     }
-
-
 }
 
 @media only screen and (min-width: 1025px){
     
     main{
+        z-index: 500;
+        position:relative;
         margin-left: 300px;
         padding: 30px;
         padding-top: 70px;
     }
 
-
+    .txt{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 };
