@@ -14,3 +14,6 @@ I styled the html page using css. I followed the Userflow reference.
 ## Week 04
 I styled the html page using flexbox in css to create a responsive layout. I followed the Userflow reference.
 [Link-to-page index.html](https://tomasromanoo.github.io/BaSP-M2023/Week-04/index.html "Index")
+
+## Week 05
+I completed the problematic proposal usin JavaScript with ECMAScript 5.
