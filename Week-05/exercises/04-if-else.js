@@ -2,13 +2,14 @@
 //   0,5 mostrar una alerta con el mensaje “Greater than or equal to 0,5” y sino un alerta con el mensaje “Lower than 0,5”;
 
     var ramdomNum = Math.random();
+    //pongo el console log aca para que puedan visualizarlo antes que el alert y se entienda mejor
+    console.log("El resultado del ej 04-A = " + ramdomNum);
+    
     if(ramdomNum >= 0.5){
         alert("Greater than or equal to 0,5");
     }else{
         alert("Lower than 0,5");
     }
-
-    console.log("El resultado del ej 04-A = " + ramdomNum);
 
 //      B - Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
 //   i. “Bebe” si la edad es menor a 2 años;
@@ -20,6 +21,8 @@
 //   vii. “Anciano” si es mayor a 75 años;
 
     var Age = 40;
+    //pongo el console log aca para que puedan visualizarlo antes que el alert y se entienda mejor
+    console.log("El resultado del ej 04-B = " + Age);
 
     if (Age < 2) {
         alert("Bebe");
@@ -36,8 +39,6 @@
     } else {
         alert("Anciano");
     }
-
-    console.log("El resultado del ej 04-B = " + Age);
 
 // Este console.log es para darle mas legibilidad a la consola
 console.log(" ");
