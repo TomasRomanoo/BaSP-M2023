@@ -1,7 +1,7 @@
 //      A - Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", 
 //   "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log)
 
-    arr = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    var arr = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
     
     console.log("El resultado del ej 03-A = " + arr[4],arr[10]);
 
@@ -40,7 +40,7 @@
 
 //      G - Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
 
-    miniArr = arr.slice("Mayo","Noviembre");
+    var miniArr = arr.slice("Mayo","Noviembre");
     
     console.log("El resultado del ej 03-G = " + miniArr);
 
