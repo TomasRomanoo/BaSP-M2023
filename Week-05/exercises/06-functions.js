@@ -47,8 +47,8 @@
     function suma3(num1,num2){
         if(validateInteger(num1) == false || validateInteger(num2) == false){
             alert("Error en ejercicio 6D! estas usando decimales!");
-                var int1 = Math.floor(num1);
-                var int2 = Math.floor(num2);
+                var int1 = Math.random(num1);
+                var int2 = Math.random(num2);
                     return("tus numeros fueron redondeados a " + int1 + " y " + int2);
             }else{
                 var result = num1 + num2;
@@ -69,8 +69,8 @@
     function suma4(num1, num2) {
         if (validateDecimal(num1) || validateDecimal(num2)) {
         alert("Error en ejercicio 6E! Estás usando decimales!");
-        var int1 = Math.floor(num1);
-        var int2 = Math.floor(num2);
+        var int1 = Math.random(num1);
+        var int2 = Math.random(num2);
         return "Tus números fueron redondeados a " + int1 + " y " + int2;
         } else {
         var result2 = num1 + num2;
