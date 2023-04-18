@@ -11,10 +11,13 @@
 header {
     background-color: #373867;
     box-shadow: 0px 4px 4px 0px #00000040;
+    padding-left: 15px;
 }
 
 aside {
     background-color: #AACE9B;
+    padding-left: 15px;
+
 }
 
 h2 {
