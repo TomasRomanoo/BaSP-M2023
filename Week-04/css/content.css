@@ -273,7 +273,7 @@ text-align: center;
     .form-contact{
         width: 40%;
     }
-    
+
     .first-form-contact{
         display: flex;
         flex-direction: column;
@@ -308,6 +308,9 @@ text-align: center;
     .section-memberships{
         display: flex;
         flex-direction: column;
+    }
+    .row{
+        height: 30px;
     }
 }
 
