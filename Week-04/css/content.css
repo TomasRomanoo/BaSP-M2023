@@ -93,6 +93,14 @@ margin-bottom: -10px;
     margin-bottom: 15px;
 }
 
+.btn-movil{
+    padding: 10px 20px 10px 20px;
+    color: #373867;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
 .section-contact{
     display: flex;
     justify-content: center;
@@ -115,9 +123,11 @@ text-align: center;
 .btn-form-contact{
     display: none;
 }
+
 .btn-form-contact-mobil{
     align-items: end;
 }
+
 .section-contact form label {
     display: block;
     margin-top: 30px;
@@ -127,6 +137,7 @@ text-align: center;
     font-size: 14px;
     line-height: 16px;
 }
+
 .section-contact form input {
     display: block;
     height: 37px;
@@ -139,6 +150,7 @@ text-align: center;
     line-height: 16px;
     opacity: 0.5;
 }
+
 .section-contact form #contact {
     width: 100%;
     height: 36px;
@@ -150,6 +162,11 @@ text-align: center;
     line-height: 16px;
     opacity: 0.5;
 }
+
+#text-area-form{
+    width: 100%;
+}
+
 .section-contact form button {
     align-items: center;
     margin-top: 22px;
@@ -173,6 +190,7 @@ text-align: center;
     align-content: center;
     align-items: center;
 }
+
 .section-activities img{
     width: 100%;
 }
@@ -183,6 +201,12 @@ text-align: center;
 }
 
 .section-activities ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin:20px;
     font-weight: 1000;
     font-size: 20px;
     line-height: 20px;
@@ -196,6 +220,10 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+}
+
+.row{
+    height: 30px;
 }
 
 
@@ -266,10 +294,6 @@ text-align: center;
         align-items: flex-start;
     }
 
-    #text-area-form{
-        width: 100%;
-    }
-
     .form-contact{
         width: 40%;
     }
@@ -297,6 +321,9 @@ text-align: center;
         margin-left: 10%;
     }
 
+    .section-activities ul{
+        flex-direction: column;
+    }
     .section-activities ul li{
         list-style-type:initial;
     }
@@ -308,9 +335,6 @@ text-align: center;
     .section-memberships{
         display: flex;
         flex-direction: column;
-    }
-    .row{
-        height: 30px;
     }
 }
 
