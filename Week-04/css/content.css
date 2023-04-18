@@ -110,8 +110,6 @@ text-align: center;
 .form-contact{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
 }
 
 .btn-form-contact{
@@ -268,6 +266,14 @@ text-align: center;
         align-items: flex-start;
     }
 
+    #text-area-form{
+        width: 100%;
+    }
+
+    .form-contact{
+        width: 40%;
+    }
+    
     .first-form-contact{
         display: flex;
         flex-direction: column;
