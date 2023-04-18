@@ -286,6 +286,8 @@ text-align: center;
 
     .txt-desk{
         display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .section-contact-container{
