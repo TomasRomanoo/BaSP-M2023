@@ -1,0 +1,45 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #373867;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+header {
+    background-color: #373867;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding-left: 15px;
+}
+
+aside {
+    background-color: #AACE9B;
+    padding-left: 15px;
+
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration-line: underline ;
+    text-underline-offset: 10px;
+    text-decoration-color: #49A37B;
+}
+
+main .section-memberships table .color-grey {
+    background-color: #D9D9D9;
+} 
+
+main .section-memberships table .color-white {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color:  #AACE9B;
+}
+
+footer p {
+    color: #FFFFFF;
+}
