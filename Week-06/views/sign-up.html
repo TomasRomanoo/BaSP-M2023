@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="../css/content.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/header.css">
-
+        <script src="../js/sign-up.js" defer></script>
         <title>Mega Rocket</title>
     </head>
     <body>
@@ -64,28 +64,41 @@
             <div>
                 <h1>Sign Up</h1>
                 <form action="">
-                    <label for="">Name</label>
-                    <input type="text" placeholder="Enter your name">
-                    <label for="">Last Name</label>
-                    <input type="text"placeholder="Enter your last name">
-                    <label for="">DNI</label>
-                    <input type="text"placeholder="Enter your DNI">
-                    <label for="">Birthdate</label>
-                    <input type="date"placeholder="dd/mm/yyyy">
-                    <label for="">Phone number</label>
-                    <input type="text"placeholder="Enter your phone number">
-                    <label for="">Location</label>
-                    <input type="text"placeholder="Enter your location">
-                    <label for="">Postal number</label>
-                    <input type="text"placeholder="Enter your postal number">
-                    <label for="">Email</label>
-                    <input type="text"placeholder="Enter your email">
-                    <label for="">Password</label>
-                    <input type="password"placeholder="Enter a password">
-                    <label for="">Repeat password</label>
-                    <input type="password"placeholder="Repeat password">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" placeholder="Enter your last name">
+
+                    <label for="dni">DNI</label>
+                    <input type="text" id="dni" placeholder="Enter your DNI">
+
+                    <label for="date">Birthdate</label>
+                    <input type="date" id="date" placeholder="dd/mm/yyyy">
+
+                    <label for="number">Phone number</label>
+                    <input type="text"id="number" placeholder="Enter your phone number">
+
+                    <label for="adress">Adress</label>
+                    <input type="text"id="adress" placeholder="Enter your adress">
+
+                    <label for="location">Location</label>
+                    <input type="text"id="location" placeholder="Enter your location">
+
+                    <label for="zipCode">Zip code</label>
+                    <input type="text" id="zipCode" placeholder="Enter your zip code">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter a password">
+
+                    <label for="rePassword">Repeat password</label>
+                    <input type="password" id="rePassword" placeholder="Repeat password">
+
                     <input type="checkbox">Remember Me
-                    <button>Enter</button>
+                    <button id="btnRegister">Register</button>
                 </form>
         </main>
         <footer>
