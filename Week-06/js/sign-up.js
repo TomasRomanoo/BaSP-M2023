@@ -30,7 +30,7 @@ btnRegister.addEventListener('click', function(e){
 
     if(errors.length > 0){
         alert("You have errors in " + errors)
-    }else(alert("Your date is: " + good))
+    }else(alert("Your dates are: " + good))
 })
 
 var name1 = '';
