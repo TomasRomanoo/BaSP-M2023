@@ -17,3 +17,6 @@ I styled the html page using flexbox in css to create a responsive layout. I fol
 
 ## Week 05
 I completed the problematic proposal usin JavaScript with ECMAScript 5.
+
+## Week 06
+I completed the problematic proposal usin JavaScript with ECMAScript 5.

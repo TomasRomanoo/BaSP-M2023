@@ -5,16 +5,35 @@ var passwordInput = document.querySelector('input[name="password"]');
 var btnLogin = document.querySelector('#btnlogin');
 
 emailInput.addEventListener('blur',function(event){
-    !emailExpression.test(event.target.value)
+    var element = document.querySelector('.emailError');
+    if(!emailExpression.test(event.target.value)){
+        element.classList.remove('messageError');
+        element.classList.add('showError');
+    }
 })
 
+emailInput.addEventListener('focus',function(){
+    var element = document.querySelector('.emailError');
+    element.classList.remove('showError');
+    element.classList.add('messageError');
+})
 
 passwordInput.addEventListener('blur',function(event){
+    var element = document.querySelector('.passwordError');
     if(!hasNumbersAndChar(event.target.value)){
+        element.classList.remove('messageError');
+        element.classList.add('showError');
     }else{return event.target.value}
 })
 
-btnLogin.addEventListener('click', function(){
+passwordInput.addEventListener('focus',function(){
+    var element = document.querySelector('.passwordError');
+    element.classList.remove('showError');
+    element.classList.add('messageError');
+})
+
+btnLogin.addEventListener('click', function(e){
+    e.preventDefault();
     if(hasNumbersAndChar(passwordInput.value) && emailExpression.test(emailInput.value)){
         alert("WELCOME!!\n Your email is: " + emailInput.value + "\n Your password is: " + passwordInput.value);
     }else if((!hasNumbersAndChar(passwordInput.value) && !emailExpression.test(emailInput.value))){

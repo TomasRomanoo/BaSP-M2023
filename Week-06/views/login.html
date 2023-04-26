@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../css/content.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/login.css">
         <script src="../js/login.js" defer></script>
         <title>Mega Rocket</title>
     </head>
@@ -64,15 +65,23 @@
             <div>
                 <h1>Log In</h1>
                 <form action="">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Email">
-
-                    <label for="pw">Password</label>
-                    <input type="password" id="pw" name="password" placeholder="Password">
-
-                    <input type="checkbox">Remember Me
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                        <p class="messageError emailError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="pw">Password</label>
+                        <input type="password" id="pw" name="password" placeholder="Password">
+                        <p class="messageError passwordError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <input type="checkbox">Remember Me
+                    </div>
+                    <div>
+                        <button id="btnlogin">Login</button>
+                    </div>
                 </form>
-                <button id="btnlogin">Login</button>
 
             </div>
         </main>

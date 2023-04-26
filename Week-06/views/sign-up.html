@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="../css/content.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/sign-up.css">
+
         <script src="../js/sign-up.js" defer></script>
         <title>Mega Rocket</title>
     </head>
@@ -64,41 +66,67 @@
             <div>
                 <h1>Sign Up</h1>
                 <form action="">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Enter your name">
-
-                    <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" placeholder="Enter your last name">
-
-                    <label for="dni">DNI</label>
-                    <input type="text" id="dni" placeholder="Enter your DNI">
-
-                    <label for="date">Birthdate</label>
-                    <input type="date" id="date" placeholder="dd/mm/yyyy">
-
-                    <label for="number">Phone number</label>
-                    <input type="text"id="number" placeholder="Enter your phone number">
-
-                    <label for="adress">Adress</label>
-                    <input type="text"id="adress" placeholder="Enter your adress">
-
-                    <label for="location">Location</label>
-                    <input type="text"id="location" placeholder="Enter your location">
-
-                    <label for="zipCode">Zip code</label>
-                    <input type="text" id="zipCode" placeholder="Enter your zip code">
-
-                    <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Enter your email">
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Enter a password">
-
-                    <label for="rePassword">Repeat password</label>
-                    <input type="password" id="rePassword" placeholder="Repeat password">
-
-                    <input type="checkbox">Remember Me
-                    <button id="btnRegister">Register</button>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        <p class="messageError nameError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" placeholder="Enter your last name">
+                        <p class="messageError lastnameError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" placeholder="Enter your DNI">
+                        <p class="messageError dniError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="date">Birthdate</label>
+                        <input type="date" id="date" placeholder="dd/mm/yyyy">
+                        <p class="messageError dateError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="number">Phone number</label>
+                        <input type="text"id="number" placeholder="Enter your phone number">
+                        <p class="messageError numberError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="adress">Adress</label>
+                        <input type="text"id="adress" placeholder="Enter your adress">
+                        <p class="messageError adressError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="location">Location</label>
+                        <input type="text"id="location" placeholder="Enter your location">
+                        <p class="messageError locationError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="zipCode">Zip code</label>
+                        <input type="text" id="zipCode" placeholder="Enter your zip code">
+                        <p class="messageError zipError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter your email">
+                        <p class="messageError emailError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter a password">
+                        <p class="messageError passwordError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="rePassword">Repeat password</label>
+                        <input type="password" id="rePassword" placeholder="Repeat password">
+                        <p class="messageError rePasswordError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <input type="checkbox">Remember Me
+                    </div>
+                    <div>
+                        <button id="btnRegister">Register</button>
+                    </div>
                 </form>
         </main>
         <footer>
