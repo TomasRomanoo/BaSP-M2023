@@ -1,0 +1,154 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;1,400&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/aside.css">
+        <link rel="stylesheet" href="../css/content.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/sign-up.css">
+
+        <script src="../js/sign-up.js" defer></script>
+        <title>Mega Rocket</title>
+    </head>
+    <body>
+        <header>
+            <img src="/assets/imgs/header/logo-mega-rocket.png" alt="logo-mega-rocket" id="logo">
+            <img src="/assets/icons/header/sandwich-icon.png" alt="sandwich-icon" id="sandwich-icon">
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../views/index.html">
+                            <img src="/assets/icons/aside/icon-btn-home.png" alt="">
+                            Home
+                        </a>    
+                    </li>
+                        <li>
+                        <a href="../views/sign-up.html">
+                            <img src="/assets/icons/aside/icon-btn-singUp.png" alt="">
+                            Sign Up
+                        </a>
+                        </li>
+                    <li>
+                        <a href="../views/login.html">
+                            <img src="/assets/icons/aside/icon-btn-singIn.png" alt="">
+                            Sign In
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+                <div class="information">
+                    <h4>
+                        Contact Information
+                    </h4>
+                        <p id="aside-information-email">
+                            <img src="/assets/icons/aside/icon-home.png" alt="">
+                            information@untitled.tld
+                        </p>
+                        <p>
+                            <img src="/assets/icons/aside/icon-phone.png" alt="">
+                            (000) 000-0000
+                        </p>
+                        <p>
+                            <img src="/assets/icons/aside/icon-packet.png" alt="">
+                            1234 Somewhere Road #8254 Nashville, TN
+                        </p>
+                </div>
+        </aside>
+        <main>
+            <div class="signUp section-contact">
+                <h1>Sign Up</h1>
+                <form action="">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        <p class="messageError nameError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" placeholder="Enter your last name">
+                        <p class="messageError lastnameError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" placeholder="Enter your DNI">
+                        <p class="messageError dniError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="date">Birthdate</label>
+                        <input type="date" id="date" placeholder="dd/mm/yyyy">
+                        <p class="messageError dateError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="number">Phone number</label>
+                        <input type="text"id="number" placeholder="Enter your phone number">
+                        <p class="messageError numberError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="adress">Adress</label>
+                        <input type="text"id="adress" placeholder="Enter your adress">
+                        <p class="messageError adressError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="location">Location</label>
+                        <input type="text"id="location" placeholder="Enter your location">
+                        <p class="messageError locationError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="zipCode">Zip code</label>
+                        <input type="text" id="zipCode" placeholder="Enter your zip code">
+                        <p class="messageError zipError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter your email">
+                        <p class="messageError emailError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter a password">
+                        <p class="messageError passwordError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <label for="rePassword">Repeat password</label>
+                        <input type="password" id="rePassword" placeholder="Repeat password">
+                        <p class="messageError rePasswordError">*wrong input*</p>
+                    </div>
+                    <div>
+                        <button id="btnRegister">Register</button>
+                    </div>
+                </form>
+                <div>
+                    <a href="../views/login.html"><button>Login</button></a>
+                    <a href="../views/index.html"><button>Home</button></a>
+                </div>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="/assets/icons/footer/icon-linkedIn.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/assets/icons/footer/icon-facebook.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/assets/icons/footer/icon-instagram.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Copyright © 2022 Radium Rocket. All rights reserved.
+            </p>
+        </footer>

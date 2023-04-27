@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+footer li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 601px){
+    footer{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    footer{
+        margin-left: 300px;
+    }
+}

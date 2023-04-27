@@ -31,7 +31,7 @@ btnRegister.addEventListener('click', function(e){
     if(errors.length > 0){
         alert("You have errors in " + errors)
     }else if(good.length > 0){
-        alert("Empty inputs");
+        alert("Empty inputs")
     }else(alert("Your dates are: " + good))
 })
 

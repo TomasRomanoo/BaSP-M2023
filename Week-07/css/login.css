@@ -1,0 +1,16 @@
+.messageError{
+    display: none;
+}
+
+.showError{
+    display: block;
+    color: rgb(189, 41, 41);
+    font-size: small;
+}
+.login{
+    display: flex;
+    padding: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+}
