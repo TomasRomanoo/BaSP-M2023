@@ -16,24 +16,26 @@ btnRegister.addEventListener('click', function(e){
     e.preventDefault(e);
     var errors = [];
     var good = [];
+    var empty = [];
 
-    if(name1 == 'bad'){errors.push("name")}else{good.push(name1)}
-    if(lastname == 'bad'){errors.push("lastname")}else{good.push(lastname)}
-    if(dni == 'bad'){errors.push("dni")}else{good.push(dni)}
-    if(date == 'bad'){errors.push("date")}else{good.push(date)}
-    if(number1 == 'bad'){errors.push("phone number")}else{good.push(number1)}
-    if(adress == 'bad'){errors.push("adress")}else{good.push(adress)}
-    if(location1 == 'bad'){errors.push("location")}else{good.push(location1)}
-    if(zipCode == 'bad'){errors.push("zip code")}else{good.push(zipCode)}
-    if(password == 'bad'){errors.push("password")}else{good.push(password)}
-    if(rePassword == 'bad'){errors.push("password validate")}else{good.push(rePassword)}
+    if(name1 == 'bad'){errors.push("name")}else if(name1 == '' || name1 == ' '){empty.push("Name")}else{good.push(name1)}
+    if(lastname == 'bad'){errors.push("Last Name")}else if(lastname == '' || lastname == ' '){empty.push("Last Name")}else{good.push(lastname)}
+    if(dni == 'bad'){errors.push("Dni")}else if(dni == '' || dni == ' ' ){empty.push("Dni")}else{good.push(dni)}
+    if(date == 'bad'){errors.push("Date")}else if(date == '' || date == ' '){empty.push("Date")}else{good.push(date)}
+    if(number1 == 'bad'){errors.push("Phone Number")}else if(number1 == '' || number1 == ' '){empty.push("Phone Number")}else{good.push(number1)}
+    if(adress == 'bad'){errors.push("Adress")}else if(adress == '' || adress == ' '){empty.push("Adress")}else{good.push(adress)}
+    if(location1 == 'bad'){errors.push("Location")}else if(location1 == '' || location1 == ' '){empty.push("Location")}else{good.push(location1)}
+    if(zipCode == 'bad'){errors.push("Zip Code")}else if(zipCode == '' || zipCode == ' '){empty.push("Zip Code")}else{good.push(zipCode)}
+    if(password == 'bad'){errors.push("Password")}else if(password == '' || password == ' '){empty.push("Password")}else{good.push(password)}
+    if(rePassword == 'bad'){errors.push("Password Validate")}else if(rePassword == '' || rePassword == ' '){empty.push("Password Validate")}else{good.push(rePassword)}
 
     if(errors.length > 0){
-        alert("You have errors in " + errors)
-    }else if(good.length > 0){
-        alert("Empty inputs")
+        alert("You have Errors in " + errors);
+    }else if(empty.length > 0 ){
+        alert("You have Empty inputs in: " + empty);
     }else(alert("Your dates are: " + good))
-})
+});
+
 
 var name1 = '';
 var lastname= '';
